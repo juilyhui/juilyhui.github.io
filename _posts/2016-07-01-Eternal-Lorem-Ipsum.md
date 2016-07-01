@@ -8,13 +8,10 @@ author: juily
 
 首先，我们先对border-collapse属性进行简单的了解。
 
-
-
-值       | 描述
----------|----------------------------------------------------------------------------------
-separate | 默认值。边框会被分开。不会忽略 border-spacing 和 empty-cells 属性。 
-collapse | 如果可能，边框会合并为一个单一的边框。会忽略 border-spacing 和 empty-cells 属性。
-inherit  | 规定应该从父元素继承 border-collapse 属性的值。
+有以下三个属性值：
+separate  默认值。边框会被分开。不会忽略 border-spacing 和 empty-cells 属性。 
+collapse  如果可能，边框会合并为一个单一的边框。会忽略 border-spacing 和 empty-cells 属性。
+inherit   规定应该从父元素继承 border-collapse 属性的值。
 
 
 
@@ -28,8 +25,8 @@ inherit  | 规定应该从父元素继承 border-collapse 属性的值。
 
 如下所示:
 
-###设置border-collapse: collapse;
-<table style="background-color: red; border: 1px solid blue;border-radius: 5px;">
+设置border-collapse: collapse;
+<table style="background-color: red; border: 1px solid blue;border-radius: 5px;border-collapse: collapse;">
 	<thead>
 		<tr>
 			<th>1</th>
@@ -46,7 +43,7 @@ inherit  | 规定应该从父元素继承 border-collapse 属性的值。
 
 代码如下：
 {% highlight bash %}
-<table style="background-color: red; border: 1px solid blue;border-radius: 5px;">
+<table style="background-color: red; border: 1px solid blue;border-radius: 5px; border-collapse: collapse;">
 	<thead>
 		<tr>
 			<th>1</th>
@@ -62,7 +59,8 @@ inherit  | 规定应该从父元素继承 border-collapse 属性的值。
 </table>
 {% endhighlight %}
 
-###设置border-collapse: separate;
+
+设置border-collapse: separate;
 <table style="background-color: red; border: 1px solid blue;border-radius: 5px;border-collapse: separate;">
 	<thead>
 		<tr>
