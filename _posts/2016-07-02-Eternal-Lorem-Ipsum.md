@@ -3,8 +3,7 @@ layout: post
 title: Tbale元素设置圆角border-radius
 author: juily
 ---
-## Tbale元素设置圆角border-radius
------
+
 
 首先，我们先对border-collapse属性进行简单的了解。
 
