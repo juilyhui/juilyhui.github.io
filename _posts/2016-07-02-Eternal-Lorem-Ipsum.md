@@ -3,7 +3,8 @@ layout: post
 title: Tbale元素设置圆角border-radius
 author: juily
 ---
-
+## Tbale元素设置圆角border-radius
+-----
 
 首先，我们先对border-collapse属性进行简单的了解。
 
@@ -25,7 +26,7 @@ inherit   规定应该从父元素继承 border-collapse 属性的值。
 如下所示:
 
 设置border-collapse: collapse;
-<table style="background-color: red; border: 1px solid blue;border-radius: 5px;border-collapse: collapse;">
+<table style="background-color: red; border: 1px solid blue;border-radius: 20px;border-collapse: collapse;">
 	<thead>
 		<tr>
 			<th>1</th>
@@ -42,7 +43,7 @@ inherit   规定应该从父元素继承 border-collapse 属性的值。
 
 代码如下：
 {% highlight bash %}
-<table style="background-color: red; border: 1px solid blue;border-radius: 5px; border-collapse: collapse;">
+<table style="background-color: red; border: 1px solid blue;border-radius: 20px; border-collapse: collapse;">
 	<thead>
 		<tr>
 			<th>1</th>
