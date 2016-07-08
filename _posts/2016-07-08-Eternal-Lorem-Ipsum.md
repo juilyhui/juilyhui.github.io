@@ -1,0 +1,20 @@
+---
+layout: post
+title: 【Vue】v-if闪现问题
+author: juily
+---
+## 【Vue】v-if闪现问题
+-----
+
+
+有时页面加载瞬间会出现很多一闪而过的画面，这是因为 Vue 还没有完成数据渲染，使得一些元素没有被隐藏。为此，Vue 提供了一个空指令 v-cloak，它将在 VM 编译结束时被移除。
+
+<body v-cloak>
+    // ...
+</body>
+借此，我们可以通过 CSS 来隐藏未被编译好的部分：
+
+[v-cloak] {
+    visibility: hidden;
+}
+当然，display: none 也是可行的。
