@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: html页面禁止手机端缩放
 author: juily
