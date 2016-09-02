@@ -5,4 +5,4 @@ author: juily
 ---
 ## 【Vue】生命周期及钩子示意图
 -----
-!(https://juilyhui.github.io/images/posts/vue-life-cycle.png)
+![](https://juilyhui.github.io/images/posts/vue-life-cycle.png)
