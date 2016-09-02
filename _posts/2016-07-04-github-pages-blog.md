@@ -35,5 +35,5 @@ GitHub-Pages仅仅为我们提供了静态页面的托管，只是静态的。�
 4.可以自定义域名
 
 
-### 更详细的内容建议参考
+### 四、更详细的内容建议参考
 [一步步在GitHub上创建博客主页 相关文章](http://www.pchou.info/ssgithubPage/2013-01-03-build-github-blog-page-01.html)
