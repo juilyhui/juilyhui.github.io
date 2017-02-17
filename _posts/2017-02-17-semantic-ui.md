@@ -97,3 +97,5 @@ $(documrnt).ready(function(){
 {% endhighlight %}
 
 这样就OK了！
+
+2、个人觉得semantic-ui的js部分不够强大，比如上面说到的复选框checkbox，在元素上并不支持click事件，而semantic给出的API又获取不到触发的DOM；以及有人说表单验证也支持的不太到位，获取不到错误的对象之类的。
