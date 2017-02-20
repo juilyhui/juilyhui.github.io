@@ -71,7 +71,7 @@ override，对面向对象熟悉的人对这个不陌生，重载，又或者说
 1、比如说，在写复选框checkbox时，
 
 html代码如下：
-{% highlight bash%}
+{% highlight bash %}
 <div class="ui checkbox">
   <input type="checkbox">
   <label>Poodle</label>
@@ -79,7 +79,7 @@ html代码如下：
 {% endhighlight %}
 
 光写html代码是不会有选中效果的，还需要在js中写入触发动作代码：
-{% highlight bash%}
+{% highlight bash %}
 $('.ui.checkbox')
   .checkbox()
 ;
