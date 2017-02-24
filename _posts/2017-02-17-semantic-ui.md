@@ -99,3 +99,25 @@ $(documrnt).ready(function(){
 这样就OK了！
 
 2、个人觉得semantic-ui的js部分不够强大，比如上面说到的复选框checkbox，在元素上并不支持click事件，而semantic给出的API又获取不到触发的DOM；以及有人说表单验证也支持的不太到位，获取不到错误的对象之类的。
+
+3、在初始化模块时遇到的问题
+
+最近项目用的Vue2.0，因此正在写很多组件，然后自己写的组件和同事写的组件中都用到了下拉菜单这个模块。
+
+在semantic中，下拉菜单的初始化是这样的：
+{% highlight bash %}
+    $('.ui.dropdown').dropdown()
+{% endhighlight %}
+
+现在遇到的问题是，我和同事写的两个组件中都用了上面的代码去初始化我们各自的下拉菜单，我的组件引用在同事的后面，我在上面的初始化事件中加入了一个onChange的回调函数，用来获取到选择到的值，如下：
+{% highlight bash %}
+    $('.ui.dropdown').dropdown({
+        onChange: function(value){
+            console.log('seleced value:', value)
+        }
+    })
+{% endhighlight %}
+
+but，就这么一个简单的函数，里面的console却一直没有被执行。后来，发现同事的组件也用这个初始化代码，把同事的组件暂时拿走，函数就正常执行了。
+
+这就证明：一个模块只能被初始化一次，只有第一次的初始化函数里的相关代码会起作用，后续再有初始化的代码都是不起作用的。
