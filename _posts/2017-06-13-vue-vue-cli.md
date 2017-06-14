@@ -10,7 +10,9 @@ author: juily
 
 Vue.js 提供一个官方命令行工具，可用于快速搭建大型单页应用。该工具提供开箱即用的构建工具配置，带来现代化的前端开发流程。只需几分钟即可创建并启动一个带热重载、保存时静态检查以及可用于生产环境的构建配置的项目。
 
-相关：[vue-mulipage-cli](https://www.npmjs.com/package/vue-multipage-cli)，与vue-cli基本一样，但是是多页面应用程序。
+关于vue-cli生成的项目，[官方文档](http://vuejs-templates.github.io/webpack/)
+
+类似插件：[vue-mulipage-cli](https://www.npmjs.com/package/vue-multipage-cli)，与vue-cli基本一样，但是是多页面应用程序。
 
 ### 二、用vue-cli构建项目
 
@@ -58,6 +60,10 @@ npm run dev
 
 ![](https://juilyhui.github.io/images/posts/vue-cli-project.jpeg)
 
+#### 文件说明
+
+![](https://juilyhui.github.io/images/posts/vue-cli-project-3.jpeg)
+
 #### README.md 文件内容如下：
 
 ![](https://juilyhui.github.io/images/posts/vue-cli-project-2.jpeg)
@@ -68,7 +74,13 @@ npm run dev  开启本地环境。
 
 npm run build  打包项目，发布正式版本；会在目录下生成 dist 文件夹（生成的是压缩混淆后的文件）。
 
-npm run build --report  打包项目，发布正式版本；同 npm run build，但是会同时输出构建情况
+npm run build --report  打包项目，发布正式版本；同 npm run build，但是会同时输出构建情况。
+
+npm run unit  单元测试。
+
+npm run e2e  e2e测试。
+
+npm test  进行所有测试。
 
 #### build/dev-serve.js 文件
 
