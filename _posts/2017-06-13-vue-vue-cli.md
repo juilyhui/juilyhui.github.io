@@ -76,6 +76,8 @@ npm run build  打包项目，发布正式版本；会在目录下生成 dist �
 
 npm run build --report  打包项目，发布正式版本；同 npm run build，但是会同时输出构建情况。
 
+（以下的测试命令，需要在创建项目，填写信息时，选择需要测试模块，才会有以下命令）
+
 npm run unit  单元测试。
 
 npm run e2e  e2e测试。
