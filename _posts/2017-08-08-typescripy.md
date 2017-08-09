@@ -64,6 +64,12 @@ document.body.innerHTML = greeter(user);
 Hello Jin Jinghui
 {% endhighlight %}
 
+在官方文档里，描述接口的时候说了如下的话：
+
+> 在TypeScript里，只在两个类型内部的结构兼容那么这两个类型就是兼容的。 这就允许我们在实现接口时候只要保证包含了接口要求的结构就可以，而不必明确地使用 implements语句。
+
+这部分还不是很理解什么意思。
+
 #### <font color="red">3、类</font>
 
 TypeScript 支持 JavaScript 的新特性，比如支持基于类的面向对象编程。
