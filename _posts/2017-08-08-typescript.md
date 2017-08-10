@@ -1,9 +1,9 @@
 ---
 layout: post
-title: TypeScript 入门随笔
+title: TypeScript 学习（一）
 author: juily
 ---
-## TypeScript 入门随笔
+## TypeScript 学习（一）
 -----
 
 ### 一、简介
