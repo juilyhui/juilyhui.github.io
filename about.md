@@ -11,10 +11,11 @@ permalink: /about/
 ## Skills
 
 * **Skill 1** - `Html` / `Css` / `Html5` / `Css3`
-* **Skill 2** - `JavaScript` / `jQuery` / `Angular` / `Vue` / `Bootstrap` 
-* **Skill 3** - `Less` / `Sass` 
-* **Skill 4** - `Grunt` / `Gulp` / `Jekyll` 
-* **Skill 5** - `Photoshop` / `Adobe lllustrator` / `Microsoft office`    
+* **Skill 2** - `JavaScript` / `jQuery` / `Angular` / `Vue` / `Bootstrap`
+* **Skill 3** - `Bootstrap` / `Semantic-UI` / `Highcharts` / `Echarts` /
+* **Skill 4** - `Less` / `Sass`
+* **Skill 5** - `Grunt` / `Gulp` / `Bower` / `npm`
+* **Skill 6** - `Scrum Master`
 
 ## Contact me
 
