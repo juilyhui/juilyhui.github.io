@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 
-### [“智造”进销存软件](https://github.com/AkshayAgarwal007/Moodly)
+### [“智造”进销存软件](https://github.com/AkshayAgarwal007/Moodly?_blank)
 “智造”是一套集材料采购、材料仓储、订单生产、成品仓储、财务、销售等所有业务流程于一体的整体解决方案，涵盖通用ERP功能、科学管理方案、智能数据报表等业务模块。
 
 负责前端架构的搭建、技术选型等，并进行前端开发工作；
@@ -14,14 +14,14 @@ permalink: /projects/
 
 ***
 
-### [旺材仓库后台系统](https://github.com/AkshayAgarwal007/Moodly)
+### [旺材仓库后台系统](https://github.com/AkshayAgarwal007/Moodly?_blank)
 旺材仓库后台系统，是一个服务于门窗厂家，为企业提供标准化“进、销、存”流程的管理工具。包括了材料的采购、销售、库存、财务和采供等等。
 
 主要负责前端页面的开发与维护
 
 ***
 
-### [Sass化架构的火星项目](https://github.com/AkshayAgarwal007/Moodly)
+### [Sass化架构的火星项目](https://github.com/AkshayAgarwal007/Moodly?_blank)
 使用 Vue2.0组件 + jQuery 前端框架、gulp+bower，实现基于Vue2的组件化、可配置化、多租户的外汇交易平台。
 
 搭建项目gulp脚手架，二次开发Semantic-UI，开发Vue2组件等。
@@ -29,35 +29,35 @@ permalink: /projects/
 ***
 
 
-### [路由器管理系统](https://github.com/AkshayAgarwal007/Moodly)
+### [路由器管理系统](https://github.com/AkshayAgarwal007/Moodly?_blank)
 用于管理自己蘑菇账号，可在账户重置蘑菇币用于购买商品，签到或做任务等获得蘑菇豆，蘑菇豆可兑换成蘑菇币，有蘑菇商城提供商品购买，购买以后路由器绑定到账户下，可对路由器进行远程操作，蘑菇相关路由器和服务的购买，订单管理，购物车，邀请好友等。
 
 负责实现商城下单、支付、购物车、路由器远程操作等。
 
 ***
 
-### [路由器设置系统（PC+Mobile）](https://github.com/AkshayAgarwal007/Moodly)
+### [路由器设置系统（PC+Mobile）](https://github.com/AkshayAgarwal007/Moodly?_blank)
 pc端和移动端的路由器管理界面，项目主要实现了对于路由器安装时以后后期使用的基本操作，主要包括路由器基本信息展示、修改名称密码、实时流量走势图、对于终端设备上网权限的控制、管理员密码修改、绑定蘑菇账号等。
 
 负责所有页面样式和交互开发、与路由器信息通讯和数据传输(底层部分由他人完成)、实时流量走势图等功能。
 
 ***
 
-### [卓德后台管理系统](https://github.com/AkshayAgarwal007/Moodly)
+### [卓德后台管理系统](https://github.com/AkshayAgarwal007/Moodly?_blank)
 是公司的后台管理系统，对于卓德和蘑菇系统的后台管理。
 
 负责对客户账号操作、资料审核等功能。
 
 ***
 
-### [卓德外汇交易平台](https://github.com/AkshayAgarwal007/Moodly)
+### [卓德外汇交易平台](https://github.com/AkshayAgarwal007/Moodly?_blank)
 由于是外汇平台，所以最重要的就是入金、出金这样的模块。该项目的注册也是一大亮点，注册信息很多，分步进行的操作。登陆以后主要有以下几个模块: 完善个人资料（上传文件）、出金入金的几种方式、mt4账户之间的账户转账、账户下银行卡添加管理、邀请会员、会员网络、mt4账户管理、各种记录图表、相关资料下载、不同客户有不同权限等。
 
 主要负责其开户、出入金、会员管理、多国语言等功能模块研发。
 
 ***
 
-### [卓德外汇主站](https://www.charterprime.com.cn/)
+### [卓德外汇主站](https://www.charterprime.com.cn/?_blank)
 该项目主要做品牌展示用。
 
 技术上单纯的使用了jQuery，着重页面样式和交互，负责实现精炼、可维护性强的前端页面。
