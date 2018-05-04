@@ -89,4 +89,55 @@ if (x) {
  */
 {% endhighlight %}
 
-· 单个函数方法
+· 模块内的小函数方法归类：
+
+{% highlight bash %}
+/**
+ * 小函数方法归类说明，这些零散的小函数方法放在一起，对应一个业务方法逻辑
+ * ------------------------------------------------------------------
+ */
+{% endhighlight %}
+
+· 单个函数方法：
+
+{% highlight bash %}
+/**
+ * 函数功能简述
+ *
+ * 具体描述一些细节
+ *
+ * @param    {string}    address    地址
+ * @param    {array}     com        商品数组
+ * @param    {string}    pay_status 支付方式
+ * @returns  void
+ *
+ * @date     2014-04-12
+ * @author   jinjinghui<juily.jjh@qq.com>
+ */
+{% endhighlight %}
+
+· 单行注释：
+
+{% highlight bash %}
+// 这是一条单行注释
+{% endhighlight %}
+
+· 单个函数方法中变量注释：
+
+{% highlight bash %}
+// 商品属性变量（一组变量描述）
+    // 商品名字（单个变量注释）
+var name = $(item).find("js-name").val();
+    // 商品数量
+    count = $(item).find(".js-count").text();
+    // 商品单价
+    price = $(item).find(".js-price").val();
+{% endhighlight %}
+
+· 单个函数方法中代码片段注释：
+
+{% highlight bash %}
+/*
+ | 代码片段的描述说明
+ */
+{% endhighlight %}
